@@ -9,7 +9,7 @@ use IO\Helper\TemplateContainer;
 use IO\Extensions\Functions\Partial;
 use IO\Services\ItemSearch\Helper\ResultFieldTemplate;
 use Plenty\Plugin\ConfigRepository;
-use CeresVanilla\Extensions\PrideaGetFreitext;
+use CeresCoconut\Extensions\PrideaGetFreitext;
 
 /**
  * Class CeresCoconutServiceProvider
