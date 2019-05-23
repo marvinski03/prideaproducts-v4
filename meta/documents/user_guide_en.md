@@ -9,7 +9,7 @@ After installing and deploying the plugin, enter your own CSS in the plugin deta
 ##### Entering your own CSS:
 
 1. Go to **Plugins » Plugin overview**.<br /> → The plugin overview will open. 
-2. Click on **CeresVanilla**.<br /> → The plugin will open. 
+2. Click on **CeresCoconut**.<br /> → The plugin will open. 
 3. Click on **resources » css » main.css** in the directory tree.
 4. Enter your CSS code.  
 7. **Save** the settings.<br /> → The CSS changes will be available after deploying the plugin again.
@@ -17,18 +17,18 @@ After installing and deploying the plugin, enter your own CSS in the plugin deta
 ##### Activating your own CSS:
 
 1. Go to **Plugins » Content**. 
-2. Go to the **Stylesheet (CeresVanilla)** area.
+2. Go to the **Stylesheet (CeresCoconut)** area.
 3. Select the container **Template: Style**. 
 4. **Save** the settings.<br /> → The CSS will be displayed in the online store.
 
 ## Displaying your own templates
 
-**CeresVanilla** allows you to override the templates of **Ceres** with your own content. To do so, enter the code in the template and override the template. In the following, setting up the homepage is explained. Set up the other templates the same way.
+**CeresCoconut** allows you to override the templates of **Ceres** with your own content. To do so, enter the code in the template and override the template. In the following, setting up the homepage is explained. Set up the other templates the same way.
 
 ##### Entering the code for your own homepage:
 
 1. Go to **Plugins » Plugin overview**.<br /> → The plugin overview will open. 
-2. Click on **CeresVanilla**.<br /> → The plugin will open. 
+2. Click on **CeresCoconut**.<br /> → The plugin will open. 
 3. Click on **resources » views » Homepage » Homepage.twig** in the directory tree.
 4. Enter the code for your homepage.  
 7. **Save** the settings.<br /> → The template changes will be available after deploying the plugin again.
@@ -37,7 +37,7 @@ After installing and deploying the plugin, enter your own CSS in the plugin deta
 
 
 1. Go to **Plugins » Plugin overview**.<br /> → The plugin overview will open. 
-2. Click on **CeresVanilla**.<br /> → The plugin will open. 
+2. Click on **CeresCoconut**.<br /> → The plugin will open. 
 3. Click on **Configuration** in the directory tree.
 4. Activate **Homepage** under **Override partials and templates**.  
 7. **Save** the settings.<br /> → The homepage will be displayed.

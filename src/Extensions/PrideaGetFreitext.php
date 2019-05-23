@@ -1,5 +1,5 @@
 <?php
-namespace CeresVanilla\Extensions;
+namespace CeresCoconut\Extensions;
 
 use Plenty\Plugin\Templates\Extensions\Twig_Extension;
 use Plenty\Plugin\Templates\Factories\TwigFactory;
