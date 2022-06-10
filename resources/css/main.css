@@ -5,6 +5,18 @@ div#vue-app {
     min-height: 100vh !important;
 }
 
+a.payment-confirmation-btn {
+    background: #198ebd;
+    font-size: 14px;
+    color: white !important;
+    padding: 4px 20px;
+    border-radius: 3px;
+    margin-top: 10px !important;
+    display: inline-block;
+    margin-left: -29px;
+    cursor: pointer;
+}
+
 /* TOP NAVIGATION */
 
 header.top-bar {
@@ -12,8 +24,17 @@ header.top-bar {
     border-top: 4px solid #a41916;
 }
 
+ul#controlsList {
+    margin: 0px;
+    padding: 0px;
+}
+
 #controlsList li a {
     color: #555;
+}
+
+.basket-preview-footer a.btn.btn-primary.btn-block {
+    color: white !important;
 }
 
 #controlsList > li a:not(.btn):hover {
@@ -71,7 +92,7 @@ body.scroll-stick .top-bar{
     background: #555;
 }
 
-body.scroll-stick .wrapper-main #page-body {
+body.scroll-stick #page-body {
   margin-top: 206px;
 }
 
@@ -187,23 +208,28 @@ body.scroll-stick .wrapper-main #page-body {
 
 /* HEADER */
 
-.wrapper-main #page-body {
+#page-body {
     margin-top: 28px;
 }
 
 @media(max-width: 768px){
-  .wrapper-main #page-body {
+  #page-body {
     margin-top: 0px;
 }
 }
 
-.wrapper-main .navbar {
+ .navbar {
     background: white !important;
      border-bottom: 1px solid #cecece !important;
 }
 
 li.ddown ul{
     margin-top: 56px !important;
+}
+
+a.navbar-brand {
+    margin: 0px !important;
+    padding: 0px !important;
 }
 
 .navbar-brand img {
@@ -258,6 +284,11 @@ header .pull-lg-right, header .pull-lg-left {
 
 div#mainNavbarCollapsable > ul > li > a {
     color: #555 !important;
+}
+
+div#mainNavbarCollapsable > ul > li > a[href="/sale"] {
+    color: #a41916 !important;
+    font-weight: bold;
 }
 
 div#mainNavbarCollapsable ul li:hover {
@@ -903,7 +934,7 @@ h1.h2.p-t-2.category-title {
     color: #198ec1;
 }
 
-.wrapper-main > nav.container-max ul.breadcrumb {
+nav.container-max ul.breadcrumb {
     padding: 8px 15px !important;
     font-size: 12px;
 }
